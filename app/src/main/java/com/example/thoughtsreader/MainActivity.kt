@@ -371,23 +371,23 @@ class MainActivity : ComponentActivity() {
         currentCardGame.players["Raja"]?.triesLeft = 5
         currentCardGame.players["Raja"]?.cards = arrayOf(R.mipmap.ace, R.mipmap.king, R.mipmap.ace, R.mipmap.ace, R.mipmap.ace)
 
-        currentCardGame.players["Bamja"] = CardPlayer()
-        currentCardGame.players["Bamja"]?.playerNumber = currentCardGame.players.count() - 1
-        currentCardGame.players["Bamja"]?.playerName = "Bamja"
-        currentCardGame.players["Bamja"]?.triesLeft = 6
-        currentCardGame.players["Bamja"]?.cards = arrayOf(R.mipmap.ace, R.mipmap.queen, R.mipmap.queen, R.mipmap.joker, R.mipmap.devil)
+        currentCardGame.players["p2"] = CardPlayer()
+        currentCardGame.players["p2"]?.playerNumber = currentCardGame.players.count() - 1
+        currentCardGame.players["p2"]?.playerName = "p2"
+        currentCardGame.players["p2"]?.triesLeft = 6
+        currentCardGame.players["p2"]?.cards = arrayOf(R.mipmap.ace, R.mipmap.queen, R.mipmap.queen, R.mipmap.joker, R.mipmap.devil)
 
-        currentCardGame.players["Tippu"] = CardPlayer()
-        currentCardGame.players["Tippu"]?.playerNumber = currentCardGame.players.count() - 1
-        currentCardGame.players["Tippu"]?.playerName = "Tippu"
-        currentCardGame.players["Tippu"]?.triesLeft = 3
-        currentCardGame.players["Tippu"]?.cards = arrayOf(R.mipmap.queen, R.mipmap.king, R.mipmap.devil, R.mipmap.ace, R.mipmap.ace)
+        currentCardGame.players["p3"] = CardPlayer()
+        currentCardGame.players["p3"]?.playerNumber = currentCardGame.players.count() - 1
+        currentCardGame.players["p3"]?.playerName = "p3"
+        currentCardGame.players["p3"]?.triesLeft = 3
+        currentCardGame.players["p3"]?.cards = arrayOf(R.mipmap.queen, R.mipmap.king, R.mipmap.devil, R.mipmap.ace, R.mipmap.ace)
 
-        currentCardGame.players["Nigger"] = CardPlayer()
-        currentCardGame.players["Nigger"]?.playerNumber = currentCardGame.players.count() - 1
-        currentCardGame.players["Nigger"]?.playerName = "Nigger"
-        currentCardGame.players["Nigger"]?.triesLeft = 1
-        currentCardGame.players["Nigger"]?.cards = arrayOf(R.mipmap.ace, R.mipmap.devil, R.mipmap.ace, R.mipmap.ace, R.mipmap.joker)
+        currentCardGame.players["p4"] = CardPlayer()
+        currentCardGame.players["p4"]?.playerNumber = currentCardGame.players.count() - 1
+        currentCardGame.players["p4"]?.playerName = "p4"
+        currentCardGame.players["p4"]?.triesLeft = 1
+        currentCardGame.players["p4"]?.cards = arrayOf(R.mipmap.ace, R.mipmap.devil, R.mipmap.ace, R.mipmap.ace, R.mipmap.joker)
     }
 
     private fun setSampleDiceGame() {
@@ -402,18 +402,18 @@ class MainActivity : ComponentActivity() {
         currentDiceGame.players["Raja"]?.playerName = "Raja"
         currentDiceGame.players["Raja"]?.playerNumber = currentDiceGame.players.count() - 1
         currentDiceGame.players["Raja"]?.dice = arrayOf(R.mipmap.five, R.mipmap.two, R.mipmap.three, R.mipmap.four, R.mipmap.five)
-        currentDiceGame.players["Bamja"] = DicePlayer()
-        currentDiceGame.players["Bamja"]?.playerName = "Bamja"
-        currentDiceGame.players["Bamja"]?.dice = arrayOf(R.mipmap.one, R.mipmap.four, R.mipmap.three, R.mipmap.four, R.mipmap.one)
-        currentDiceGame.players["Bamja"]?.playerNumber = currentDiceGame.players.count() - 1
-        currentDiceGame.players["Tippu"] = DicePlayer()
-        currentDiceGame.players["Tippu"]?.playerName = "Tippu"
-        currentDiceGame.players["Tippu"]?.dice = arrayOf(R.mipmap.three, R.mipmap.two, R.mipmap.three, R.mipmap.four, R.mipmap.five)
-        currentDiceGame.players["Tippu"]?.playerNumber = currentDiceGame.players.count() - 1
-        currentDiceGame.players["Nigger"] = DicePlayer()
-        currentDiceGame.players["Nigger"]?.playerName = "Nigger"
-        currentDiceGame.players["Nigger"]?.dice = arrayOf(R.mipmap.one, R.mipmap.two, R.mipmap.two, R.mipmap.one, R.mipmap.six)
-        currentDiceGame.players["Nigger"]?.playerNumber = currentDiceGame.players.count() - 1
+        currentDiceGame.players["p2"] = DicePlayer()
+        currentDiceGame.players["p2"]?.playerName = "p2"
+        currentDiceGame.players["p2"]?.dice = arrayOf(R.mipmap.one, R.mipmap.four, R.mipmap.three, R.mipmap.four, R.mipmap.one)
+        currentDiceGame.players["p2"]?.playerNumber = currentDiceGame.players.count() - 1
+        currentDiceGame.players["p3"] = DicePlayer()
+        currentDiceGame.players["p3"]?.playerName = "p3"
+        currentDiceGame.players["p3"]?.dice = arrayOf(R.mipmap.three, R.mipmap.two, R.mipmap.three, R.mipmap.four, R.mipmap.five)
+        currentDiceGame.players["p3"]?.playerNumber = currentDiceGame.players.count() - 1
+        currentDiceGame.players["p4"] = DicePlayer()
+        currentDiceGame.players["p4"]?.playerName = "p4"
+        currentDiceGame.players["p4"]?.dice = arrayOf(R.mipmap.one, R.mipmap.two, R.mipmap.two, R.mipmap.one, R.mipmap.six)
+        currentDiceGame.players["p4"]?.playerNumber = currentDiceGame.players.count() - 1
     }
 
     private fun identifyAllImages() {
